@@ -1,0 +1,161 @@
+# Saving the provided HTML content as a .html file
+html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <label ><img src="logo.jpg" alt="" class="logo"></label>
+        <ul class="menu">
+            <a href="index.html">home</a>
+            <a href="features.html"><li>Features</li></a>
+            <a href="pricing.html">  <li>pricing</li></a>
+            <a href="resources.html">  <li>Resources</li></a>
+        </ul>
+        <div class="access">
+            <a href="login.html"><button class="login" >Login</button></a>
+            <a href="#">   <button class="sign">Sign up</button></a>
+        </div>
+            
+    </div>
+    <div class="container">
+        <div class="side_left">
+        <div class="content">
+       
+                More than just <br> 
+                shorter links
+           </div>
+            <p class="para">
+                
+                Build your blands recognation and get detailed
+                <br>
+                insight on how your links are performing
+
+
+            </p>
+            <br>
+            <br>
+            <br><a href="https://www.instagram.com/yourusername">
+                <button class="start">Get Started</button>
+            </a>
+            
+            </div>
+    <img src="avatar.jpeg" class="imgz" alt="">
+
+    </div>
+    <div class="search">
+        <input type="text" placeholder="shorten a link here...." class="shorten-links"><button class="shorten">shorten it!</button>
+    </div>
+    <br><br><br><br><br>
+    <div class="middle-para">
+        <h4 class="adv_s">
+            Advanced statistics
+        </h4>
+        <br>
+        <p class="track">
+            track how your links are performing the web with <br>
+            our advanced static dash board .
+        </p>
+    </div>
+    <div class="difficult">
+        <div class="class1">
+            <button class="icon1"><i class="fa-solid fa-chart-simple"></i></button>
+            <br>
+            <h2>Brand recognation</h2>
+            <br>
+            <p>boost your recognation with <br>
+            each click . generic links dont mean a <br>think
+        branded links help instill confidence in your content</p>
+        </div>
+        <div class="class2">
+            <button class="icon1"><i class="fa-solid fa-chart-simple"></i></button>
+            <br>
+            <h2>Brand recognation</h2>
+            <br>
+            <p>boost your recognation with <br>
+            each click . generic links dont mean a <br>think
+        branded links help instill confidence in your content</p>
+        </div>
+        <div class="class3">
+            <button class="icon1"><i class="fa-solid fa-chart-simple"></i></button>
+            <br>
+            <h2>Brand recognation</h2>
+            <br>
+            <p>boost your recognation with <br>
+            each click . generic links dont mean a <br>think
+        branded links help instill confidence in your content</p>
+        </div>
+    </div>
+    <div class="pre-footer">
+        <div class="all">
+            <br><br><br><br>
+        <h1>
+            Boost your links today
+        </h1>
+        <br><br>
+        <button class="sta"><h2>Get started</h2></button>
+        </div>
+    </div>
+    <footer>
+        <div class="flx">
+            <div class="log">
+                <label class="logo">shortly</label>
+            </div>
+            <div class="ftr">
+                
+                <ul>
+                    <h3>features</h3>
+                    <br>
+                    <ul>link shoreterning</ul>
+                    <ul>branded links</ul>
+                    <ul>analytics</ul>
+                </ul>
+
+            </div>
+            <div class="scs">
+                <ul>
+                    <h3>resources</h3>
+                    <br>
+                    <ul>blog</ul>
+                    <ul>developers</ul>
+                    <ul>support</ul>
+                </ul>
+            </div>
+            <div class="company">
+                <ul>
+                    <h3>company</h3>
+                    <br>
+                <ul>about</ul>
+                <ul>our team</ul>
+                <ul>carreers</ul>
+                <ul>contact</ul>
+                </ul>
+
+            </div>
+            <div class="scial-media">
+                
+
+                 <li><a href="https://twitter.com/yourusername" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/yourusername" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/yourusername" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+
+            </div>
+        </div>
+    </footer>
+    <a href="https://youtu.be/0y94ULIb5yk"></a>
+    
+</body>
+</html>
+"""
+
+file_path = "/mnt/data/shortly_design.html"
+with open(file_path, "w") as file:
+    file.write(html_content)
+
+file_path
